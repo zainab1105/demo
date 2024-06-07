@@ -73,12 +73,14 @@
     
     <br/>
     <br/>
-    <hr/>
-    <b><h2><i>Division</i></h2></b>
-    <hr/>
-    <div class="container">
-        <h2>This is a heading</h2>
-        <p>This is a paragraph inside a div container.</p>
+    <div>
+        <hr/>
+        <b><h2><i>Division</i></h2></b>
+        <hr/>
+        <div class="container">
+            <h2>This is a heading</h2>
+            <p>This is a paragraph inside a div container.</p>
+        </div>
     </div>
 
     <hr/>
@@ -123,7 +125,7 @@
             <b><h2><i>Form</i></h2></b>
             <hr/>
             <label for="name">Name:</label>
-            <input type="text" pattern="[A-Z a-z]" placeholder="Enter your name" required><br><br>
+            <input type="text"  placeholder="Enter your name" required><br><br>
             <label for="email">Email:</label>
             <input type="email" placeholder="Sample: abc@gmail.com"><br><br>
             <label for="Contact">Contact:</label>
@@ -144,8 +146,22 @@
             <label for="c">C, C++</label><br/>
             <input type="checkbox" id="html">
             <label for="html">HTML, CSS, JavaScript</label><br/>
-
             <br/>
+
+            <p>Date of Birth:</p>
+            <time datetime="">
+                <input type="date" id="dob" name="dob">
+            </time>            
+            <br/>
+
+            <p>Select Operating Systems</p>
+            <select><br>
+                <option value="windows">Windows</option><br>
+                <option value="macos">MacOs</option><br>
+                <option value="linux">Linux</option><br>
+              </select><br>
+              <br>
+
             <input type="submit" value="Submit">
         </form>
     </section>
